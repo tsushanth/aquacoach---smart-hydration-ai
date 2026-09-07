@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:25" hostname="Sushanths-Mac-mini.local" time="0.044">
+  <properties/>
+  <testcase name="retryConnection re-triggers the billing connection" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.021"/>
+  <testcase name="restorePurchases delegates to the premium manager" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="a Purchased event clears isPurchasing and sets a welcome message" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.003"/>
+  <testcase name="a Restored event with purchases reports purchases restored" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="purchase sets isPurchasing and launches the billing flow" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.003"/>
+  <testcase name="initial state mirrors billing connection and premium status" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.003"/>
+  <testcase name="an Error event surfaces the error message" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="a Restored event with no purchases reports none found" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <testcase name="a Pending event surfaces a pending message" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.003"/>
+  <testcase name="init starts the billing connection" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.001"/>
+  <testcase name="a Cancelled event clears isPurchasing without setting a message" classname="com.factory.aquacoachsmarthydrationai.ui.paywall.PaywallViewModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

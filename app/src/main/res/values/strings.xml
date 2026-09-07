@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AquaCoach</string>
+    <string name="notification_channel_name">Hydration Reminders</string>
+    <string name="notification_channel_description">Reminders to drink water throughout the day</string>
+    <string name="reminder_title">Time to hydrate! 💧</string>
+    <string name="reminder_text">You are behind on your water goal. Take a sip!</string>
+</resources>

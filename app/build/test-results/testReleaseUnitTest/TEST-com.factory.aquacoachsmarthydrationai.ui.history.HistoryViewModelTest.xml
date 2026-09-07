@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:31" hostname="Sushanths-Mac-mini.local" time="0.053">
+  <properties/>
+  <testcase name="streak counts consecutive goal-met days ending today, ignoring an unmet today" classname="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" time="0.044"/>
+  <testcase name="average is computed across the window including empty days" classname="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" time="0.002"/>
+  <testcase name="non-premium users see isPremium false in state" classname="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" time="0.002"/>
+  <testcase name="initial state has 7 days and reflects premium flag" classname="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" time="0.002"/>
+  <testcase name="streak stops counting at the first missed day before today" classname="com.factory.aquacoachsmarthydrationai.ui.history.HistoryViewModelTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

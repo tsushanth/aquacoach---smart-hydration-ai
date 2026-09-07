@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:19" hostname="Sushanths-Mac-mini.local" time="1.981">
+  <properties/>
+  <testcase name="onPurchasesUpdated consumes the small IAP instead of acknowledging" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="1.33"/>
+  <testcase name="onPurchasesUpdated emits Error when OK response has no purchases" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.043"/>
+  <testcase name="onPurchasesUpdated emits Pending for a pending purchase" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="onPurchasesUpdated emits a network Error on service disconnects" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.038"/>
+  <testcase name="onPurchasesUpdated emits Cancelled on user cancellation" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.035"/>
+  <testcase name="endConnection delegates to the underlying billing client" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.033"/>
+  <testcase name="launchPurchaseFlow emits an Error when product details are unavailable" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.185"/>
+  <testcase name="startConnection reuses an already-ready client without reconnecting" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.033"/>
+  <testcase name="startConnection transitions to Connected and loads products on success" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.051"/>
+  <testcase name="refreshPurchases emits Restored with purchases from both product types" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.026"/>
+  <testcase name="refreshPurchases does nothing when the client is not ready" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.021"/>
+  <testcase name="launchPurchaseFlow starts the billing flow when a product and offer are available" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.044"/>
+  <testcase name="onPurchasesUpdated acknowledges a new purchase and emits Purchased" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.026"/>
+  <testcase name="startConnection surfaces an Error state when setup fails" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.023"/>
+  <testcase name="refreshPurchases emits an Error event when the query throws" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.024"/>
+  <testcase name="launchPurchaseFlow emits an Error when a subscription has no offer token" classname="com.factory.aquacoachsmarthydrationai.billing.BillingManagerTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

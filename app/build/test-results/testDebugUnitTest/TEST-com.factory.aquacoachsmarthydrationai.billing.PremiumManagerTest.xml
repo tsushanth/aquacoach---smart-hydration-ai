@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:21" hostname="Sushanths-Mac-mini.local" time="0.152">
+  <properties/>
+  <testcase name="initial state has no premium access" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.099"/>
+  <testcase name="a lifetime purchase grants premium with LIFETIME source" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.016"/>
+  <testcase name="a full sync restore with no active purchases revokes premium" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.006"/>
+  <testcase name="a supporter pack purchase sets isSupporter without granting premium" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.007"/>
+  <testcase name="a single non-full-sync purchase event never revokes existing premium" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.007"/>
+  <testcase name="restorePurchases delegates to the billing manager refresh" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.004"/>
+  <testcase name="a subscription purchase grants premium with SUBSCRIPTION source" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.004"/>
+  <testcase name="startObserving delegates to the billing manager connection" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.001"/>
+  <testcase name="premium status persists across manager instances sharing the same data store" classname="com.factory.aquacoachsmarthydrationai.billing.PremiumManagerTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

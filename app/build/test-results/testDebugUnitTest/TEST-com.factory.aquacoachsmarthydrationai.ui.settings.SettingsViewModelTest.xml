@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:25" hostname="Sushanths-Mac-mini.local" time="0.379">
+  <properties/>
+  <testcase name="setReminderWindow delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.038"/>
+  <testcase name="restorePurchases delegates to the premium manager" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.028"/>
+  <testcase name="setActivityLevel delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.029"/>
+  <testcase name="setUnitSystem delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.028"/>
+  <testcase name="setReminderIntervalMinutes does not reschedule when reminders are disabled" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.029"/>
+  <testcase name="setDailyGoalMl delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.029"/>
+  <testcase name="initial state combines preferences and premium status" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.029"/>
+  <testcase name="setBodyWeightKg delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.028"/>
+  <testcase name="enabling reminders persists the flag and schedules work" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.038"/>
+  <testcase name="setHotClimate delegates to the repository" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.037"/>
+  <testcase name="setReminderIntervalMinutes reschedules only when reminders are enabled" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.029"/>
+  <testcase name="disabling reminders persists the flag and cancels work" classname="com.factory.aquacoachsmarthydrationai.ui.settings.SettingsViewModelTest" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

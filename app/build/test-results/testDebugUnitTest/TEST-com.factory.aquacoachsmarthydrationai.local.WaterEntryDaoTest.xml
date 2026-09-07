@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:22" hostname="Sushanths-Mac-mini.local" time="3.141">
+  <properties/>
+  <testcase name="observeDailyTotals groups sums by day within the requested range" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="3.038"/>
+  <testcase name="observeTotalForDay sums all entries for that day and defaults to zero" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.02"/>
+  <testcase name="observeAllEntries returns entries across all days" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.016"/>
+  <testcase name="deleteById removes only the targeted row" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.013"/>
+  <testcase name="observeEntriesForDay orders results by timestamp descending" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.012"/>
+  <testcase name="delete removes a specific entry" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.012"/>
+  <testcase name="observeEntriesForDay only returns entries for the requested day" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.01"/>
+  <testcase name="clearAll removes every entry" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.011"/>
+  <testcase name="insert returns a generated id and the entry is queryable" classname="com.factory.aquacoachsmarthydrationai.local.WaterEntryDaoTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

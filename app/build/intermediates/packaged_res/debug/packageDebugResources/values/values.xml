@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aqua_background_dark">#001E2E</color>
+    <color name="aqua_background_light">#F0F9FF</color>
+    <color name="aqua_primary">#0288D1</color>
+    <color name="aqua_primary_dark">#01579B</color>
+    <color name="aqua_secondary">#4FC3F7</color>
+    <color name="ic_launcher_background">#0288D1</color>
+    <string name="app_name">AquaCoach</string>
+    <string name="notification_channel_description">Reminders to drink water throughout the day</string>
+    <string name="notification_channel_name">Hydration Reminders</string>
+    <string name="reminder_text">You are behind on your water goal. Take a sip!</string>
+    <string name="reminder_title">Time to hydrate! 💧</string>
+    <style name="Theme.AquaCoach" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="windowSplashScreenBackground">@color/aqua_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.AquaCoach</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:25" hostname="Sushanths-Mac-mini.local" time="0.088">
+  <properties/>
+  <testcase name="setReminderWindow delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.048"/>
+  <testcase name="userPreferencesFlow exposes the underlying preferences flow" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.002"/>
+  <testcase name="setUnitSystem delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.002"/>
+  <testcase name="observeTodayTotal delegates to the dao for today's epoch day" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.003"/>
+  <testcase name="deleteEntry delegates to the dao" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.003"/>
+  <testcase name="observeDailyTotals passes through the requested range" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.001"/>
+  <testcase name="observeTodayEntries delegates to the dao" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.001"/>
+  <testcase name="setOnboardingComplete delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.008"/>
+  <testcase name="setDailyGoalMl delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.001"/>
+  <testcase name="setActivityLevel delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.002"/>
+  <testcase name="logWater inserts an entry stamped with today's epoch day" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.001"/>
+  <testcase name="setRemindersEnabled delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.007"/>
+  <testcase name="setHotClimate delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.006"/>
+  <testcase name="setBodyWeightKg delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.002"/>
+  <testcase name="setReminderIntervalMinutes delegates to the preferences repository" classname="com.factory.aquacoachsmarthydrationai.repository.HydrationRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,41 @@
+-keep enum j$.time.DayOfWeek {
+  public java.lang.String getDisplayName(j$.time.format.TextStyle,java.util.Locale);
+}
+-keep class j$.time.Duration {
+  public static j$.time.Duration ofMillis(long);
+  public long toMillis();
+}
+-keep class j$.time.Instant {
+  public static j$.time.Instant ofEpochMilli(long);
+}
+-keep class j$.time.LocalDate {
+  public java.lang.String format(j$.time.format.DateTimeFormatter);
+  public j$.time.DayOfWeek getDayOfWeek();
+  public static j$.time.LocalDate now();
+  public static j$.time.LocalDate ofEpochDay(long);
+  public long toEpochDay();
+}
+-keep class j$.time.LocalDateTime {
+  public java.lang.String format(j$.time.format.DateTimeFormatter);
+  public static j$.time.LocalDateTime ofInstant(j$.time.Instant,j$.time.ZoneId);
+}
+-keep class j$.time.LocalTime {
+  public int getHour();
+  public static j$.time.LocalTime now();
+}
+-keep class j$.time.TimeConversions {
+  public static java.time.Duration convert(j$.time.Duration);
+  public static j$.time.Duration convert(java.time.Duration);
+}
+-keep class j$.time.ZoneId {
+  public static j$.time.ZoneId systemDefault();
+}
+-keep class j$.time.format.DateTimeFormatter {
+  public static j$.time.format.DateTimeFormatter ofPattern(java.lang.String,java.util.Locale);
+}
+-keep enum j$.time.format.TextStyle {
+  j$.time.format.TextStyle SHORT;
+}
+-keep class j$.util.DesugarTimeZone {
+  public static java.util.TimeZone getTimeZone(java.lang.String);
+}

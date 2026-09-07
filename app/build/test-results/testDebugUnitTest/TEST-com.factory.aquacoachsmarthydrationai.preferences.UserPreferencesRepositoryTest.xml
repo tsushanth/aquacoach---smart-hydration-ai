@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-07T00:00:25" hostname="Sushanths-Mac-mini.local" time="0.025">
+  <properties/>
+  <testcase name="setDailyGoalMl persists and is reflected in the flow" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.006"/>
+  <testcase name="preferences persist across repository instances sharing the same data store" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.004"/>
+  <testcase name="setOnboardingComplete persists true" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.002"/>
+  <testcase name="setRemindersEnabled toggles reminder state" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.003"/>
+  <testcase name="setReminderWindow updates both start and end hour together" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.002"/>
+  <testcase name="setActivityLevel and setHotClimate and setBodyWeightKg persist independently" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.004"/>
+  <testcase name="default preferences are used before anything is written" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.002"/>
+  <testcase name="setUnitSystem persists the chosen unit" classname="com.factory.aquacoachsmarthydrationai.preferences.UserPreferencesRepositoryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
